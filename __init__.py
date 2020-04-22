@@ -51,8 +51,8 @@ ADDON = ADDON.replace("\\", "/")
 
 
 if theme == 'animated':
-    img = ADDON+"/thumpsUp.gif"
-    imgFail = ADDON+"/thumpsDown.gif"
+    img = ADDON+"/thumbsUp.gif"
+    imgFail = ADDON+"/thumbsDown.gif"
 elif theme == 'still':
     img = ADDON+"/like.png"
     imgFail = ADDON+"/heartbreak.png"
