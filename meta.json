@@ -1,0 +1,7 @@
+{"mod": 123,
+"name": "myvc",
+ "config": {
+     "duration":700,
+     "theme":"still"
+ },
+ "disabled": false}
