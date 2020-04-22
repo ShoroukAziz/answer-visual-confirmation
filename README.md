@@ -4,13 +4,34 @@
 
 
 
-
-This is a very simple Anki Addone that provides a visual confirmation of your Answer in the reviewer it's very similar to the [Visual Feedback for Reviews
-](https://ankiweb.net/shared/info/1749604199) addon but it works with Anki 2.1
+This is a very simple Anki Addon that provides a visual confirmation of your Answer in the reviewer by displaying either a thumbs up or a thumbs down picture depending on your answer to the card. it's function is very similar to the [Visual Feedback for Reviews](https://ankiweb.net/shared/info/1749604199) addon but it allows using animated gifs for more fun and it works with Anki 2.1
 
 
 ## Configuration
+From the menu bar > tools > add-ons
+choose "Answer Visual Confirmation" then > Configuration
+
+the default configuration are: <br>
+`
+{  "duration": 700,  "theme": "still" }
+`
+<br>
+you can change the `duration` of which the visual confirmation appears (in ms) or the set of images to appear through the value of the `theme`<br>
+available `theme` options are: `still` and `animated`
+
+#### More customization
+If you don't like either of the themes you can add your own images :<br>
+Head to the addon folder and replace both `heartbreak.png` and `like.png`
+or both `thumbsUp.gif` and `thumbsDown.gif`
+with your own images.<br>
+<b>make sure your images dimensions are 256x256 </b>
 
 ## Download
 
-## License and Credits
+
+## License
+Answer Visual Confirmation is Copyright (c) 2020 [Shorouk Abdelaziz](https://shorouk.xyz)
+
+## Credits
+* Animated pictures from [clipart.email](https://www.clipart.email/)
+* Still pictures from [Flaticon](https://www.flaticon.com/) by [Freepik](https://www.flaticon.com/authors/freepik)
