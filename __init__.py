@@ -42,7 +42,7 @@ CONFIG = mw.addonManager.getConfig(__name__)
 
 #defaults
 theme = 'still'
-duration = 1500
+duration = 700
 duration = CONFIG['duration']
 theme = CONFIG['theme']
 

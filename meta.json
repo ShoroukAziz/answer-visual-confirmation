@@ -1,7 +1,1 @@
-{"mod": 123,
-"name": "Feedback Visual Confirmation",
- "config": {
-     "duration":700,
-     "theme":"still"
- },
- "disabled": false}
+{"mod": 123, "name": "Answer Visual Confirmation", "config": {"duration": 1400, "theme": "animated"}, "disabled": false}
