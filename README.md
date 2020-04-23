@@ -29,10 +29,10 @@ available `theme` options are: `still` and `animated`
 
 
 #### More customization
-If you don't like either of the themes you can add your own images :<br>
-Head to the addon folder and replace both `heartbreak.png` and `like.png`
-or both `thumbsUp.gif` and `thumbsDown.gif`
-with your own images.<br>
+If you don't like either of the themes you can add your own images  :<br>
+Head to the addon folder and replace each of `easy.png` , `good.png` ,`hard.png` ,`again.png`
+or each of `easy.gif` , `good.gif` ,`hard.gif` ,`again.gif`
+with your own images. <b>I'm sure you can get creative with the gifs! </B> <br>
 <b>make sure your images dimensions are 256x256 </b>
 
 ## Download
