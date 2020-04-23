@@ -100,14 +100,18 @@ def closeTooltip():
 
 
 def answer_confirmation(self, ease):
-    if ease == 1:
-        myToolTip(imgAgain)
-    elif ease == 2:
-        myToolTip(imgHard)
-    elif ease == 3:
-        myToolTip(imgGood)
-    elif ease == 4:
-        myToolTip(imgEasy)
+    l = self._answerButtonList()
+    a = [item for item in l if item[0] == ease]
+    if len(a) > 0:
+        status = BeautifulSoup(a[0][1], 'html.parser').get_text()
+        if status == 'Again':
+            myToolTip(imgAgain)
+        elif status == 'Hard':
+            myToolTip(imgHard)
+        elif status == 'Good':
+            myToolTip(imgGood)
+        elif status == 'Easy':
+            myToolTip(imgEasy)
 
 
 
