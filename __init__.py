@@ -45,17 +45,24 @@ theme = 'still'
 duration = 700
 duration = CONFIG['duration']
 theme = CONFIG['theme']
+ADDON = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
 
-ADDON = os.path.dirname(os.path.abspath(__file__))
-ADDON = ADDON.replace("\\", "/")
+path = lambda file: ADDON+'/images'+file
+
 
 
 if theme == 'animated':
-    img = ADDON+"/thumbsUp.gif"
-    imgFail = ADDON+"/thumbsDown.gif"
+    imgEasy = path("/easy.gif")
+    imgGood = path("/good.gif")
+    imgHard = path("/hard.gif")
+    imgAgain = path("/again.gif")
+
 elif theme == 'still':
-    img = ADDON+"/like.png"
-    imgFail = ADDON+"/heartbreak.png"
+    imgEasy = path("/easy.png")
+    imgGood = path("/good.png")
+    imgHard = path("/hard.png")
+    imgAgain = path("/again.png")
+
 
 ttTimer  = None
 ttLabel = None
@@ -96,10 +103,16 @@ def answerCard_before(self, ease):
     l = self._answerButtonList()
     a = [item for item in l if item[0] == ease]
     if len(a) > 0:
-        if BeautifulSoup(a[0][1], 'html.parser').get_text() != 'Again':
-            myToolTip(img)
-        else:
-            myToolTip(imgFail)
+        status = BeautifulSoup(a[0][1], 'html.parser').get_text()
+        if status == 'Again':
+            myToolTip(imgAgain)
+        elif status == 'Hard':
+            myToolTip(imgHard)
+        elif status == 'Good':
+            myToolTip(imgGood)
+        elif status == 'Easy':
+            myToolTip(imgEasy)
+
 
 
 Reviewer._answerCard = wrap(Reviewer._answerCard, answerCard_before, "before")
