@@ -35,7 +35,7 @@ the default configuration are: <br>
 | :-------------: |:-------------|
 | `duration`    | How long ,in ms, do you want the feedback to appear on the screen |
 | `theme`      | `animated` :to display gifs <br>  `still` : to display pngs    |
-| `mode`       |  `random` : will display different pictures randomly. <br>  `gradual` :  will display a different picture every defined number of reviews (gradual_interval)      | 
+| `mode`       |  `random` : will display different pictures randomly. <br>  `gradual` :  will display a different picture every defined number of reviews (gradual_interval)      |
 | `gradual_interval`       | the number of reviews after which the displayed images for (easy, good, hard and again will be changed).      |
 
 #### Making it your own
@@ -79,6 +79,8 @@ what you would do is : <br>
 
 and so on with the other folders you get the idea
 
+<b>what happens if you reached in your 400th review ?</b>
+you'll start getting cat gifs again and rotate till you reach dr Cox. Unless, you added a fourth picture in each folder.
 
 ## Download
 Download it from [AnkiWeb](https://ankiweb.net/shared/info/1208806023).
