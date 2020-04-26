@@ -12,12 +12,14 @@ This is a very simple Anki Addon that provides a visual confirmation of your Ans
 
 >For discussions head to  [Reddit](https://www.reddit.com/r/Anki/comments/g64qe0/addon_release_visual_confirmation_for_anki_21/)
 </b>
+
 ## Configuration and Customization
+
 From the menu bar > tools > add-ons
 choose "Answer Visual Confirmation" then > Configuration
 
 <p>
-<img  align="right" style="margin:15px;"  width="400px" src="https://github.com/my-Anki/answer-visual-confirmation/blob/master/screenshots/screenrecord2.gif?raw=true"  >  
+<img  align="right" style="margin:15px;"  width="500px" src="https://github.com/my-Anki/answer-visual-confirmation/blob/master/screenshots/screenrecord2.gif?raw=true"  >  
 
 
 the default configuration are: <br>
