@@ -1,4 +1,6 @@
 {
-    "duration":700,
-    "theme":"still"
+    "duration":1400,
+    "theme":"animated",
+    "mode" : "random" ,
+    "gradual_interval" : 100
 }
