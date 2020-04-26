@@ -11,6 +11,7 @@ This is a very simple Anki Addon that provides a visual confirmation of your Ans
 </p>
 
 >For discussions head to  [Reddit](https://www.reddit.com/r/Anki/comments/g64qe0/addon_release_visual_confirmation_for_anki_21/)
+
 </b>
 
 ## Configuration and Customization
@@ -19,7 +20,7 @@ From the menu bar > tools > add-ons
 choose "Answer Visual Confirmation" then > Configuration
 
 <p>
-<img  align="right" style="margin:15px;"  width="500px" src="https://github.com/my-Anki/answer-visual-confirmation/blob/master/screenshots/screenrecord2.gif?raw=true"  >  
+<img  align="right" style="margin:25px;"  width="500px" src="https://github.com/my-Anki/answer-visual-confirmation/blob/master/screenshots/screenrecord2.gif?raw=true"  >  
 
 
 the default configuration are: <br>
@@ -35,12 +36,16 @@ the default configuration are: <br>
 
 <br>
 
+<p style="margin:15px;" >
+
 | option        | definition    |
 | :-------------: |:-------------|
 | `duration`    | How long ,in ms, do you want the feedback to appear on the screen |
 | `theme`      | `animated` :to display gifs <br>  `still` : to display pngs    |
 | `mode`       |  `random` : will display different pictures randomly. <br>  `gradual` :  will display a different picture every defined number of reviews (gradual_interval)      |
 | `gradual_interval`       | the number of reviews after which the displayed images for (easy, good, hard and again will be changed).      |
+
+</p>
 
 #### Making it your own
 If you don't like either of the default pics, you can (and you definitely should) add your own images  :<br>
