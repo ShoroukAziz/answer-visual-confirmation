@@ -17,7 +17,7 @@ From the menu bar > tools > add-ons
 choose "Answer Visual Confirmation" then > Configuration
 
 <p>
-<img  align="right" margin="20px"  style="width:350px"  src="https://github.com/my-Anki/answer-visual-confirmation/blob/master/screenshots/screenrecord2.gif?raw=true"  >  
+<img  align="right" margin="20px"  style="width:150px"  src="https://github.com/my-Anki/answer-visual-confirmation/blob/master/screenshots/screenrecord2.gif?raw=true"  >  
 
 
 the default configuration are: <br>
@@ -45,7 +45,7 @@ If you don't like either of the default pics, you can (and you definitely should
 
 #### The images folder
 
-<img align="right"  style="width:80px" src="https://github.com/my-Anki/answer-visual-confirmation/blob/master/screenshots/screenshot.PNG?raw=true"  >  
+<img align="right"  style="width:40px" src="https://github.com/my-Anki/answer-visual-confirmation/blob/master/screenshots/screenshot.PNG?raw=true"  >  
 
 Inside the addon's main folder there's an `images` folder <br>
 that contains two other sub folders `gif` and `png` each folder for each image's extension.<br>
