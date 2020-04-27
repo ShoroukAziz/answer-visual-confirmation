@@ -4,7 +4,7 @@
 
 
 
-This is a very simple Anki Addon that provides a visual confirmation of your Answer in the reviewer by displaying either a thumbs up or a thumbs down picture depending on your answer to the card. it's function is  similar to the [Visual Feedback for Reviews](https://ankiweb.net/shared/info/1749604199) addon but it allows using animated gifs for more fun and it works with Anki 2.1 <br>
+This is a very simple Anki Addon that provides a visual confirmation of your Answer in the reviewer by displaying a picture depending on your answer to the card. it's function is  similar to the [Visual Feedback for Reviews](https://ankiweb.net/shared/info/1749604199) addon but it allows using animated gifs for more fun , it works with Anki 2.1 and it has more customization features<br>
 <b>
 <p   align="center" >
 <img style="width:500px" src="https://github.com/my-Anki/answer-visual-confirmation/blob/master/screenshots/screenrecord.gif?raw=true"  >  
