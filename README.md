@@ -92,7 +92,8 @@ and so on with the other folders you get the idea
 you'll start getting cat gifs again and rotate till you reach dr Cox. Unless, you added a fourth picture in each folder.
 
 ## Download
-Download it from [AnkiWeb](https://ankiweb.net/shared/info/1208806023).
+* Download latest version from [AnkiWeb](https://ankiweb.net/shared/info/1208806023).
+* Download older versions from [here](https://github.com/my-Anki/answer-visual-confirmation/releases)
 
 ## License
 Answer Visual Confirmation is released under MIT License Copyright (c) 2020 [Shorouk Abdelaziz](https://shorouk.xyz)
