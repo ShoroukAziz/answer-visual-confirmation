@@ -91,7 +91,7 @@ and so on with the other folders you get the idea
 <b>what happens if you reached in your 400th review ?</b>
 you'll start getting cat gifs again and rotate till you reach dr Cox. Unless, you added a fourth picture in each folder.
 
-* <b>Rangrad</b>:<br> added by [@Sebastian Führ ](https://github.com/KrokodileDandy?tab=followers)
+* <b>Rangrad</b>: added by [@Sebastian Führ ](https://github.com/KrokodileDandy?tab=followers)  <br> 
 This mode will display a randomly selected picture every defined number of reviews (gradual interval).<br>
 
 
