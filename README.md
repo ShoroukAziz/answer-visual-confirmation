@@ -42,7 +42,7 @@ the default configuration are: <br>
 | :-------------: |:-------------|
 | `duration`    | How long ,in ms, do you want the feedback to appear on the screen |
 | `theme`      | `animated` :to display gifs <br>  `still` : to display pngs    |
-| `mode`       |  `random` : will display different pictures randomly. <br>  `gradual` :  will display a different picture every defined number of reviews (gradual_interval)      |
+| `mode`       |  `random` : will display different pictures randomly. <br>  `gradual` :  will display a different picture every defined number of reviews (gradual_interval) <br> `rangrad`:will display a randomly selected picture every defined number of reviews (gradual interval).     | 
 | `gradual_interval`       | the number of reviews after which the displayed images for (easy, good, hard and again will be changed).      |
 
 </p>
@@ -91,6 +91,10 @@ and so on with the other folders you get the idea
 <b>what happens if you reached in your 400th review ?</b>
 you'll start getting cat gifs again and rotate till you reach dr Cox. Unless, you added a fourth picture in each folder.
 
+* <b>Rangrad</b>:<br> added by [@Sebastian Führ ](https://github.com/KrokodileDandy?tab=followers)
+This mode will display a randomly selected picture every defined number of reviews (gradual interval).<br>
+
+
 ## Download
 * Download latest version from [AnkiWeb](https://ankiweb.net/shared/info/1208806023).
 * Download older versions from [here](https://github.com/my-Anki/answer-visual-confirmation/releases)
@@ -99,5 +103,6 @@ you'll start getting cat gifs again and rotate till you reach dr Cox. Unless, yo
 Answer Visual Confirmation is released under MIT License Copyright (c) 2020 [Shorouk Abdelaziz](https://shorouk.xyz)
 
 ## Credits
+* Thanks to [@Sebastian Führ ](https://github.com/KrokodileDandy?tab=followers) for devloping  the rangrad mode 
 * Animated pictures from [clipart.email](https://www.clipart.email/) and [giphy](https://giphy.com/)
 * Still pictures from [Flaticon](https://www.flaticon.com/) by [Freepik](https://www.flaticon.com/authors/freepik)
