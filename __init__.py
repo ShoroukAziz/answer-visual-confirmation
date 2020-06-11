@@ -55,6 +55,10 @@ mode = CONFIG['mode']
 interval = CONFIG['gradual_interval']
 ADDON = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
 
+state = {
+    "cnt": 0
+}
+
 def prepImages():
     iamges_list=[]
     for extension in ['png','gif']:
@@ -116,11 +120,19 @@ def closeTooltip():
         ttTimer.stop()
         ttTimer = None
 
-
 def display_answer_confirmation(self, ease ):
+    state["cnt"] += 1
+
     count = len(self._answeredIds)
     selcted_pics = []
     if mode == 'random':
+        for category in imgs:
+            imgs_count = len(category)
+            selector =random.randint(0, imgs_count-1)
+            selcted_pics.append(category[selector])
+    elif mode == 'rangrad':
+        if state["cnt"] % interval != 0:
+            return
         for category in imgs:
             imgs_count = len(category)
             selector =random.randint(0, imgs_count-1)
